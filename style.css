@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     background: #fafafa;
     height: fit-content;
 }
@@ -15,8 +15,6 @@ header {
 }
 
 .barra-do-topo {
-    /* background: yellow; */
-
     display: flex;
     justify-content: space-between;
     height: 54px;
@@ -24,7 +22,6 @@ header {
     flex: wrap;
     align-content: center;
     width: 932px;
-
 }
 
 .logo {
@@ -90,7 +87,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 nav div {
@@ -116,15 +112,12 @@ main {
 .barra-lateral {
     position: fixed;
     z-index: 100;
-    /* position: sticky; */
     top: 0;
     display: flex;
     width: 318px;
     height: max-content;
-    /* height: 100%; */
     margin-left: 614px;
     margin-top: 55px;
-    /* background-color: orange; */
     flex-direction: column;
 }
 
@@ -137,7 +130,6 @@ main {
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
     border-radius: 3px;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -198,19 +190,14 @@ main {
 
 .perfil{
     display:flex;
-    /* justify-content: center;
-    /* align-items: center; */
     width:235px;
     margin-left: 28px;
     margin-top: 57px;
 }
 
 .foto-perfil img{
-    /* position: absolute; */
     width: 56px;
     height: 56px;
-    /* left: 858px; */
-    /* top: 111px; */
     border-radius: 28px;
 }
 
@@ -223,7 +210,6 @@ main {
     text-align: initial;
     margin-left: 17px;
     margin-top: 11px;
-    /* justify-content: right; */
 }
 
 .username {
@@ -252,7 +238,6 @@ main {
     width: 235px;
     flex-direction: column;
     margin-left: 29px;
-    /* align-items: flex-start; */
 }
 
 .sugestoes-texto{
@@ -274,8 +259,6 @@ main {
 .foto-sug img{
     width: 32px;
     height: 32px;
-   /*  left: 858px;
-    top: 223px; */
     margin-top: 17px;
     border-radius: 16px;
 }
@@ -314,9 +297,7 @@ main {
 .seguir{
     width: 55px;
     height: 271px;
-    /* background-color: yellow; */
     margin-top: 29px;
-
 }
 
 .lado-a-lado{
@@ -349,28 +330,23 @@ main {
 .texto-cinza{
     width: 300px;
     height: 42px;
-    /* background-color: yellowgreen; */
     margin-left: 30px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 13px;
-
     color: #C7C7C7;
 }
 
 .instagram-do-facebook{
     width: 300px;
     height: 14px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 13px;
-
     color: #C7C7C7;
     margin-top: 18px;
     margin-left: 30px;
@@ -382,7 +358,6 @@ main {
     flex-direction: column;
     width: 614px;
     height: fit-content;
-
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
@@ -392,7 +367,6 @@ main {
 
 .feed-barra-superior {
     height: 60px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -559,6 +533,4 @@ video{
     .logo-mobile{
         margin-left: 18px;
     }
-
 }
-
